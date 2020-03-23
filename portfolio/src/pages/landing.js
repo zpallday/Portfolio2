@@ -1,10 +1,12 @@
 import React from 'react';
 import NavbarLanding from './navbarlanding';
-import Team from './teampage';
+// import Team from './teampage';
 import Footer from './footer';
 import Features from './features';
-
-
+import Title from './about';
+import Project from './Projects'
+// import Review from './review';
+import Contacts from './contact'
 
 export default function Landing() {
   return (
@@ -13,21 +15,19 @@ export default function Landing() {
       <NavbarLanding />
 
       {/* Title */}
-
+      <Title />
 
       {/* Features */}
+      <h1 className="titles">Skills</h1>
       <Features />
 
       {/* App Screenshots */}
-      <h2 className="text-4xl flex justify-center font-sembold text-black-600 p-12" id="demo">
-        App Screenshots
-      </h2>
-    
-
+      <h1 className="titles">Projects</h1>
+      <Project />
       {/* Review */}
-   
+      {/* <Review /> */}
       {/* Team */}
-      <Team />
+      <Contacts />
 
       {/* footer */}
       <Footer />
