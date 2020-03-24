@@ -9,9 +9,6 @@ export default function Contact() {
       <div className="first-name">
     <input type="text" id="input-name" placeholder="Name"/>
     </div>
-    <div className="first-name">
-    <input type="text" id="input-name" placeholder="Last Name"/>
-    </div>
     </div>
     <input type="email" id="input-email" placeholder="Email address"/>
     <input type="text" id="input-subject" placeholder="Subject"/>

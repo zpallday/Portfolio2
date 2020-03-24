@@ -163,8 +163,8 @@ li svg #white-svg:hover {
 
 .container {
   position: relative;
-
 }
+
 
 .image {
   display: block;
@@ -241,7 +241,7 @@ li svg #white-svg:hover {
   font-weight: 500;
   border-radius: 10px 10px 10px 10px;
   margin-right: -20px;
-  margin-top: 15.9%;
+  margin-top: 5.9%;
 }
 
 
@@ -367,42 +367,63 @@ h1.major, h2.major, h3.major, h4.major, h5.major, h6.major {
 
 .features-align{
   display: flex;
+  margin-left: 8%;
 }
 
 
 .nav {
   display: flex;
   justify-content: flex-end;
+  background: white;
+  padding: 2%;
+  margin-top: -2.2%;
+  margin-right: -6%;
+  margin-left: -3%;
 }
 
-a.navone {
-  margin-right: 6%;
-  text-decoration: none;
+
+a.navone  {
+    margin-right: 6%;
+    text-decoration: none;
+    color: #000;
 }
 
 a.nav2 {
   margin-right: 6%;
   text-decoration: none;
+  color: #000;
 }
 
 a.nav3 {
   margin-right: 6%;
   text-decoration: none;
+  color: #000;
 }
 
 a.nav4 {
   margin-right: 6%;
   text-decoration: none;
+  color: #000;
+}
+
+a.nav4:hover{
+  color: #32dbc6;
+
 }
   
-
+.img {
+  margin-left: -4;
+}
 
 .features-topic{
-  display: flex;
+  /* display: flex; */
   justify-content: center;
   text-align: center;
 }
 
+.margin-topic{
+  
+}
 
 .about {
     transition: opacity 0.325s ease-in-out, transform 0.325s ease-in-out;
@@ -415,6 +436,9 @@ a.nav4 {
     opacity: 0;
 }
 
+.picsabout {
+  /* width: 100%; */
+}
 
 .img-fluid {
   max-width: 100%;
@@ -532,7 +556,6 @@ form {
 
 .form-title {
   display: flex;
-  justify-content: center;
 }
 
 .half {
@@ -598,6 +621,8 @@ form {
 .cf:after {
     clear: both;
 }
+
+
 /* ********* MEDIA QUERIES ********* */
 
 @media (max-width: 700px) {

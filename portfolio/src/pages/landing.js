@@ -22,7 +22,8 @@ export default function Landing() {
       <Features />
 
       {/* App Screenshots */}
-      <h1 className="titles">Projects</h1>
+
+      <h1 className="titles" id="projects">Projects</h1>
       <Project />
       {/* Review */}
       {/* <Review /> */}

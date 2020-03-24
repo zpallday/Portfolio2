@@ -10,20 +10,22 @@ export default function NavBarLanding() {
         <div class="navone" id="menu">
           <nav>
             <ul class="nav">
-              <a class="navone" href="#about">
+              <a class="nav4" href="#about">
                 About
               </a>
-
-              <a class="nav2" href="#projects">
-                Projects
+              <a class="nav4" href="#skills">
+                Skills
               </a>
 
-              <a class="nav3" href="#skills">
-                Skills
+              <a class="nav4" href="#projects">
+                Projects
               </a>
 
               <a class="nav4" href="#contact">
                 Contact
+              </a>
+              <a class="nav4" href="https://onedrive.live.com/view.aspx?resid=128C0D475125B54D!2663&ithint=file%2cdocx&wdLOR=c8C6EA985-7C8E-477A-A82E-6ECCF17AD781&authkey=!AMcbfNK4taF8t5w">
+                Resume
               </a>
 
               <div>

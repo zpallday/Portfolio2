@@ -9,8 +9,10 @@ export default function Features() {
           <div className="single-special w-full md:w-1/3 px-2 mb-6">
             <div className="col-12 col-sm-6 col-lg-6">
               <h4 className="features-topic">
-              
-                Make friends
+                <div>
+              <img src="https://i.ibb.co/tLsLJfj/react-icon.png" width="8%" alt="react-icon" border="0"></img>
+              </div>
+                HTML/CSS
               </h4>
 
               <p className="features-topic">Scan a qr code with someone and get there information</p>
@@ -20,8 +22,10 @@ export default function Features() {
           <div className="single-special w-full md:w-1/3 px-2 mb-6">
             <div className="col-12 col-sm-6 col-lg-6">
               <h4 className="features-topic">
-                
-                Any size
+              <div>
+              <img src="https://i.ibb.co/tLsLJfj/react-icon.png" width="8%" alt="react-icon" border="0"></img>
+              </div>
+                JavaScript
               </h4>
 
               <p className="features-topic">
@@ -33,8 +37,12 @@ export default function Features() {
           <div className="single-special w-full md:w-1/3 px-2 mb-6">
             <div className="col-12 col-sm-6 col-lg-6">
               <h4 className="features-topic">
-            
-                Import
+              <div>
+              <img src="https://i.ibb.co/tLsLJfj/react-icon.png" width="8%" alt="react-icon" border="0"></img>
+              </div>
+
+                React
+                
               </h4>
 
               <p className="features-topic">Inport any picture you want on the app.</p>
@@ -49,8 +57,10 @@ export default function Features() {
           <div className="single-special w-full md:w-1/3 px-2 mb-6">
             <div className="col-12 col-sm-6 col-lg-6">
               <h4 className="features-topic">
-              
-                Make friends
+              <div>
+              <img src="https://i.ibb.co/tLsLJfj/react-icon.png" width="8%" alt="react-icon" border="0"></img>
+              </div>
+                Node.js
               </h4>
 
               <p className="features-topic">Scan a qr code with someone and get there information</p>
@@ -60,8 +70,10 @@ export default function Features() {
           <div className="single-special w-full md:w-1/3 px-2 mb-6">
             <div className="col-12 col-sm-6 col-lg-6">
               <h4 className="features-topic">
-                
-                Any size
+              <div>
+              <img src="https://i.ibb.co/tLsLJfj/react-icon.png" width="8%" alt="react-icon" border="0"></img>
+              </div>
+                Python
               </h4>
 
               <p className="features-topic">
@@ -73,8 +85,10 @@ export default function Features() {
           <div className="single-special w-full md:w-1/3 px-2 mb-6">
             <div className="col-12 col-sm-6 col-lg-6">
               <h4 className="features-topic">
-            
-                Import
+              <div>
+              <img src="https://i.ibb.co/tLsLJfj/react-icon.png" width="8%" alt="react-icon" border="0"></img>
+              </div>
+                SQL
               </h4>
 
               <p className="features-topic">Inport any picture you want on the app.</p>
