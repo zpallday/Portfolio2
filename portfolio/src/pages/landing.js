@@ -6,7 +6,7 @@ import Features from './features';
 import Title from './about';
 import Project from './Projects'
 // import Review from './review';
-import Contacts from './contact'
+// import Contacts from './contact'
 
 export default function Landing() {
   return (
@@ -18,7 +18,7 @@ export default function Landing() {
       <Title />
 
       {/* Features */}
-      <h1 className="titles">Skills</h1>
+      <h1 className="titles" id="skills">Skills</h1>
       <Features />
 
       {/* App Screenshots */}
@@ -28,7 +28,7 @@ export default function Landing() {
       {/* Review */}
       {/* <Review /> */}
       {/* Team */}
-      <Contacts />
+      {/* <Contacts /> */}
 
       {/* footer */}
       <Footer />
