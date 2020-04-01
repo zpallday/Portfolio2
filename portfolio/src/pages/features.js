@@ -12,7 +12,7 @@ export default function Features() {
               <div>
               <img src="https://i.ibb.co/tLsLJfj/react-icon.png"  width="16%" alt="react-icon" border="0"></img>
               </div>
-                Node.js
+                React
               </h4>
         
           </div>
@@ -23,7 +23,7 @@ export default function Features() {
               <div>
               <img src="https://i.ibb.co/mv2zcLr/download-4.png" width="16%" alt="react-icon" border="0"></img>
               </div>
-                Python
+                Node.js
               </h4>
      
           </div>
@@ -48,7 +48,7 @@ export default function Features() {
               <div>
               <img src="https://i.ibb.co/ctf3X3C/download-5.png" width="16%" alt="react-icon" border="0"></img>
               </div>
-                Node.js
+                Python
               </h4>
             </div>
 
@@ -57,7 +57,7 @@ export default function Features() {
               <div>
               <img src="https://i.ibb.co/NC6xMn9/download-3.png"  width="16%" alt="react-icon" border="0"></img>
               </div>
-                Python
+                HTML
               </h4>
             </div>
 
@@ -68,7 +68,7 @@ export default function Features() {
               
               <img src="https://i.ibb.co/8gwwprH/js.png" width="16%" alt="react-icon" border="0"></img>
               </div>
-                CSS
+                Javascript
               </h4>       
             </div>
           </div>
