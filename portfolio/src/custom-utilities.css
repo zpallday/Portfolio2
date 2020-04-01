@@ -362,6 +362,15 @@ h1.major, h2.major, h3.major, h4.major, h5.major, h6.major {
   margin: 0 0 2rem 0;
 } */
 
+.top-features{
+  margin-right: -5%;
+}
+
+.bottom-features{
+  display: flex;
+  flex-direction: row;
+}
+
 .features {
   display: flex;
   flex-direction: row;
@@ -370,7 +379,6 @@ h1.major, h2.major, h3.major, h4.major, h5.major, h6.major {
   margin-left: -6%;
 }
 .feature {
-  display: flex;
   margin: auto;
 }
 

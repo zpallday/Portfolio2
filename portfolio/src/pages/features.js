@@ -4,7 +4,7 @@ export default function Features() {
   return (
     <div className="feature">
 <div className="features">
-      <div className="flex justify-between text-center p-5">
+      <div className="top-features">
         <div className="features-align">
           <div className="single-special w-full md:w-1/3 px-2 mb-6">
           
@@ -42,8 +42,8 @@ export default function Features() {
       </div>
     </div>
     <div className="features">
+    <div className="bottom-features">
         <div className="features-align">
-          <div className="single-special w-full md:w-1/3 px-2 mb-6">
               <h4 className="features-topic">
               <div>
               <img src="https://i.ibb.co/ctf3X3C/download-5.png" width="16%" alt="react-icon" border="0"></img>
