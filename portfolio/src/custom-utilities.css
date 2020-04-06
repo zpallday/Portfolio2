@@ -2,6 +2,9 @@
 html {
   overflow-x:hidden;
   scroll-behavior: smooth;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
 }
 .header {
   position: fixed;
@@ -172,6 +175,19 @@ li svg #white-svg:hover {
   height: auto;
   transition: .5s ease;
   backface-visibility: hidden;
+  margin-top: 4%;
+}
+
+.image1{
+  margin-top: -2%;
+}
+
+.image2{
+  margin-top: 3%;
+}
+
+.image3{
+  margin-top: 3%;
 }
 
 .middle {
@@ -238,17 +254,15 @@ li svg #white-svg:hover {
 
 .footer {
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  background: #9b69e4;
-  font-size: 14px;
-  color: #ffffff;
-  line-height: 40px;
-  font-weight: 500;
-  border-radius: 10px 10px 10px 10px;
-  margin-right: -20px;
-  margin-top: 5.9%;
+  text-align: center;
+  margin-top: 3%;
 }
 
+.footer-p {
+margin-top: -1%;
+}
 
 .padding-title {
   padding-left: 0.5rem;
@@ -362,6 +376,18 @@ h1.major, h2.major, h3.major, h4.major, h5.major, h6.major {
   margin: 0 0 2rem 0;
 } */
 
+div.single-specials{
+  margin-left: -11.5%;
+}
+
+.single-specialss{
+  margin-right: -0.3%;
+}
+.single-specialsss{
+  margin-left: -10%;
+}
+
+
 .top-features{
   margin-right: -5%;
 }
@@ -391,11 +417,11 @@ h1.major, h2.major, h3.major, h4.major, h5.major, h6.major {
 .nav {
   display: flex;
   justify-content: flex-end;
-  background: white;
   padding: 2%;
   margin-top: -2.2%;
   margin-right: -6%;
   margin-left: -3%;
+  background-color: black;
 }
 
 
@@ -420,7 +446,7 @@ a.nav3 {
 a.nav4 {
   margin-right: 6%;
   text-decoration: none;
-  color: #000;
+  color: white;
 }
 
 a.nav4:hover{
@@ -451,7 +477,7 @@ a.nav4:hover{
 }
 
 .picsabout {
-  width: 100%;
+  width: 106%;
 }
 
 .img-fluid {
@@ -474,6 +500,7 @@ a.nav4:hover{
 .images-all {
   /* display: flex; */
   text-align: center;
+      margin-top: 4%;
 }
 
 
@@ -503,7 +530,6 @@ a.nav4:hover{
 }
 
 html, body {
-  background: #f1f1f1;
   font-family: 'Merriweather', sans-serif;
   padding: 1em;
 }
@@ -517,11 +543,6 @@ html, body {
    box-sizing:border-box; 
 }
 
-html, body {
-  background: #f1f1f1;
-  font-family: 'Merriweather', sans-serif;
-  padding: 1em;
-}
 
 h1 {
    text-shadow:1px 1px 0 white, 1;
@@ -605,6 +626,11 @@ form {
   text-decoration: none;
 }
 
+.h1-project:hover{
+  color:  #58f1cc;
+  text-decoration: none;
+}
+
 @media (max-width: 480px) {
   .half {
      width: 100%; 
@@ -639,6 +665,34 @@ form {
     clear: both;
 }
 
+.links {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-left: 2.5%;
+}
+
+.github-link {
+  margin-right: 6%;
+}
+
+body {
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
 
 /* ********* MEDIA QUERIES ********* */
 
@@ -721,3 +775,43 @@ form {
       height: 70%;
     }
     }
+
+    
+  @media (max-width: 600px){
+    .features {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      margin-top: 1%;
+      margin-left: -6%;
+  }
+    }
+    
+    @media (max-width: 600px){
+    .features-topic {
+      /* display: flex; */
+      justify-content: center;
+      text-align: center;
+    }
+  }
+
+  
+  @media (max-width: 600px){
+  div.single-specials{
+    margin-left: -16.5%;
+  }
+  
+  .single-specialss{
+    margin-right: -2.3%;
+    margin: auto;
+  }
+  .single-specialsss{
+    margin-left: -31%;
+  }
+  @media (max-width: 600px){
+    .nav{
+      margin-top: -6%;
+      margin-left: -16.5%;
+    }
+  }
+}
