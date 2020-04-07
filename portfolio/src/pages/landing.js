@@ -4,7 +4,7 @@ import NavbarLanding from './navbarlanding';
 import Footer from './footer';
 import Features from './features';
 import Title from './about';
-import Project from './Projects'
+import Project from './Projects';
 // import Review from './review';
 // import Contacts from './contact'
 
