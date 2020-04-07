@@ -57,7 +57,7 @@ export default function Features() {
 
           <div className="">
            
-              <h4 className="features-topic">
+              <h4 className="features-topicss">
               <div>
               <img className="icons" src="https://i.ibb.co/89NXxSg/js.png" width="20%" alt="react-icon" border="0"></img>
               </div>
