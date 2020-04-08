@@ -255,8 +255,8 @@ li svg #white-svg:hover {
   justify-content: center;
   text-align: center;
   padding: .2rem;
-  margin-right: -6%;
-  margin-left: -6%;
+  margin-right: -9%;
+  margin-left: -9%;
   background-color: black;
   color: white;
   margin-bottom: -20%;
@@ -466,6 +466,25 @@ a.nav4:hover{
   text-align: center;
 }
 
+.features-topics{
+  /* display: flex; */
+  justify-content: center;
+  text-align: center;
+  margin-left: 16%;
+}
+
+.features-topicss{
+  justify-content: center;
+  text-align: center;
+  margin-right: -3%;
+}
+
+.features-topicsss{
+  /* display: flex; */
+  justify-content: center;
+  text-align: center;
+  margin-right: -3%;
+}
 
 .about {
     transition: opacity 0.325s ease-in-out, transform 0.325s ease-in-out;
@@ -495,6 +514,8 @@ a.nav4:hover{
     /* float:  left; */
     width:  50%;
     height: 70%;
+    border: aquamarine;
+    border: double;
     /* background-size: cover; */
 }
 
@@ -534,7 +555,7 @@ a.nav4:hover{
 html, body {
   font-family: 'Merriweather', sans-serif;
   padding: 1em;
-  background-color: rgb(201, 189, 173);
+  background-color: white
 }
 
 
@@ -821,3 +842,55 @@ form {
     }
   }
 
+  @media (max-width: 700px){
+  .links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 11.5%;
+}
+  }
+
+  @media (max-width: 700px){
+    .icons {
+      width: 35%;
+  }
+    } 
+    @media (max-width: 1500px){
+    .features-topics{
+      /* display: flex; */
+      justify-content: center;
+      text-align: center;
+      margin-left: -6%;
+    }
+  }
+  @media (max-width: 1500px){
+    .features-topicsss{
+      /* display: flex; */
+      margin-right: -22%;
+    }
+  }
+
+
+  @media (min-width: 1800px){
+    .features-topicsss{
+      /* display: flex; */
+      margin-right: -5%;
+    }
+  }
+
+  @media (min-width: 1510px){
+    .features-topicsss{
+      /* display: flex; */
+      margin-right: -2%;
+    }
+  }
+
+  @media (min-width: 1610px){
+    .features-topics{
+      /* display: flex; */
+      justify-content: center;
+      text-align: center;
+      margin-left: 18%;
+    }
+  }

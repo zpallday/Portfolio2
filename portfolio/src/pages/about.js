@@ -7,7 +7,8 @@ export default function NavBarLanding() {
     <div className="text-center container mx-auto px-20" id="about">
       <h2 className="titles">Portfolio</h2>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/js/all.min.js" integrity="sha256-qM7QTJSlvtPSxVRjVWNM2OfTAz/3k5ovHOKmKXuYMO4=" crossorigin="anonymous"></script>
-      <p className="titles">Hello my name is Zach, I'm currently arolled in Lambda as a Full stack web developer. Always want to learn more.</p>
+      <p className="titles">Born in Minnesota, I went to school for HVAC, and did it for a couple of years, but i decided it wasn't for me in the long run. Then I was looking for something else and started reading about programming.
+I enrolled for computer programming and got my two years, but it felt like I needed to learn more so instead of joining a University I joined a bootcamp called Lambda School to become a Full Stack Developer. I always want to expand my knowledge and will do anything to exceed</p>
       <section class="container padding-title mx-auto px-5 p-10">
               <div className="links">
                 <div className="github-link">
