@@ -72,7 +72,7 @@ export default function Features() {
               <div>
               <img className="icons" src="https://i.ibb.co/NC6xMn9/download-3.png"  width="20%" alt="react-icon" border="0"></img>
               </div>
-                CSS
+                HTML
               </h4>
             </div>
           </div>
