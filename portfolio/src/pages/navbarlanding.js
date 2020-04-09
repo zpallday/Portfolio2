@@ -21,7 +21,7 @@ export default function NavBarLanding() {
                 Projects
               </a>
 
-              <a class="nav4" href="https://onedrive.live.com/view.aspx?resid=128C0D475125B54D!2663&ithint=file%2cdocx&wdLOR=c8C6EA985-7C8E-477A-A82E-6ECCF17AD781&authkey=!AMcbfNK4taF8t5w">
+              <a class="nav4" href="https://docs.google.com/document/d/1uzjroYaM1kLcTQ8ImbFj6jqL0k4xXAHedkIRSr7enkU/edit">
                 Resume
               </a>
 

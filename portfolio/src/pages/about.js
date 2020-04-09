@@ -5,6 +5,9 @@ import React from 'react';
 export default function NavBarLanding() {
   return (
     <div className="text-center container mx-auto px-20" id="about">
+      <div className="avts">
+      <img className="avt" src="https://i.ibb.co/f0tsXRk/T4-JUEB3-ME-UJG8-RLWKG-3766d295008c-512.png" alt="T4-JUEB3-ME-UJG8-RLWKG-3766d295008c-512" border="0"></img>
+      </div>
       <h2 className="titles">Portfolio</h2>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/js/all.min.js" integrity="sha256-qM7QTJSlvtPSxVRjVWNM2OfTAz/3k5ovHOKmKXuYMO4=" crossorigin="anonymous"></script>
       <p className="titles">Born in Minnesota, I went to school for HVAC, and did it for a couple of years, but i decided it wasn't for me in the long run. Then I was looking for something else and started reading about programming.
