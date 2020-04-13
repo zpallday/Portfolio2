@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Features() {
   return (
-    <div className="feature">
+    <div className="fea">
 <div className="features">
       <div className="top-features">
         <div className="features-align">

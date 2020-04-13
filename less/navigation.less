@@ -1,0 +1,44 @@
+nav {
+    height: 5vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: right;
+    position: sticky;
+    z-index: 1;
+    top:0;
+    background-color: #333F54;
+    padding: 2.5rem 0;
+
+    @media @tab {
+        justify-content: center;
+    }
+
+    div {
+        min-width: 45vw;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        @media @tab {
+            min-width: 70vw;
+        }
+
+        @media @phone {
+            min-width: 90vw;
+        }
+        
+        a {
+            color: white;
+            &:hover{
+                color: #ffac41;
+                border-bottom: 3px solid #ffac41;  
+            }
+
+            @media @phone {
+                color: #ffac41;
+            }
+ 
+        }
+    }
+}

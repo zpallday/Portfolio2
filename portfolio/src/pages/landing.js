@@ -18,7 +18,7 @@ export default function Landing() {
       <Title />
 
       {/* Features */}
-      <h1 className="titles" id="skills">Skills</h1>
+      <h1 className="titles-skills" id="skills">Skills</h1>
       <Features />
 
       {/* App Screenshots */}
