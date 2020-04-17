@@ -233,7 +233,7 @@ nav div a:hover {
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-image: url('https://i.ibb.co/T2dpT6Q/tianyi-ma-Wi-ONHd-z-YI4-unsplash.jpg');
+  background-image: url("https://i.ibb.co/P104SS4/boba-jovanovic-Mzx5u-LK1n-QY-unsplash.jpg");
   background-size: cover;
   background-color: #333F54;
 }
@@ -508,6 +508,13 @@ nav div a:hover {
   -webkit-animation: pulsate-fwd 0.5s ease-in-out both;
   animation: pulsate-fwd 0.5s ease-in-out both;
 }
+
+/* .up {
+  -webkit-animation: pulsate-fwd 0.5s ease-in-out both;
+  animation: pulsate-fwd 0.5s ease-in-out both;
+} */
+
+
 .rotate90 {
   -webkit-transform: rotate(90deg);
   -moz-transform: rotate(90deg);
