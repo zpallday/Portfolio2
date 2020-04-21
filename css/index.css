@@ -253,6 +253,10 @@ nav div a:hover {
   text-align: left;
 }
 
+.margin {
+ margin: auto;
+}
+
 
 .home .header-text .text {
   color: white;
