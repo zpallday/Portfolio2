@@ -508,6 +508,20 @@ nav div a:hover {
     width: 40vw;
   }
 }
+@media screen and (min-width:501px) and (max-width:1000px){
+  .about .about-text .about-image{
+  width: 76vw;
+  height: 48vh;
+  border-radius: 1rem;
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  background-image: url('https://i.ibb.co/f0tsXRk/T4-JUEB3-ME-UJG8-RLWKG-3766d295008c-512.png');
+  background-size: cover;
+  margin-left: -1.7%;
+}
+}
 .about .skills .skill-icons div:hover.pulsate-fwd {
   -webkit-animation: pulsate-fwd 0.5s ease-in-out both;
   animation: pulsate-fwd 0.5s ease-in-out both;
