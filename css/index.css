@@ -136,8 +136,8 @@ html,
 body {
   font-family: 'Raleway', sans-serif;
   color: #23293B;
-  scroll-snap-type: y mandatory;
 }
+
 @media (max-width: 500px) {
   html,
   body {
@@ -692,4 +692,19 @@ nav div a:hover {
 .contact img {
   height: 7rem;
   width: 6rem;
+}
+
+@media screen and (min-width:764px) and (max-width:865px){
+  .projects .project img {
+    height: 200px;
+    width: 240px;
+  }
+}
+
+
+
+@media screen and (min-width:764px) and (max-width:865px){
+  .projects .project .project-image {
+    height: 41%;
+  }
 }
