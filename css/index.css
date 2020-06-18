@@ -468,6 +468,8 @@ nav div a:hover {
   background-size: cover;
   margin-left: -1.7%;
 }
+
+
 @media (max-width: 500px) {
   .about .about-text .about-image {
     width: 100%;
@@ -698,6 +700,7 @@ nav div a:hover {
   .projects .project img {
     height: 200px;
     width: 240px;
+    margin-top: -5%;
   }
 }
 
