@@ -487,17 +487,17 @@ nav div a:hover {
   }
 }
 .about .skills .skill-icons {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  width: 100%;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  grid-gap: 10px;
+  /* background-color: #2196F3; */
+  padding: 10px;
 }
 .about .skills .skill-icons div {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 15%;
+  width: 100%;
 }
 @media (max-width: 763px) {
   .about .skills .skill-icons div {
@@ -711,3 +711,12 @@ nav div a:hover {
     height: 41%;
   }
 }
+
+@media screen and (min-width:364px) and (max-width:765px){
+.about .skills .skill-icons {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+}}
