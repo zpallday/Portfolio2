@@ -559,19 +559,41 @@ nav div a:hover {
 .projects-page h3 {
   color: #ffac41;
 }
-.projects {
+
+/* .projects {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   flex-wrap: wrap;
   text-align: initial;
+} */
+
+
+.projects {
+display: grid;
+grid-template-columns: auto auto auto;
+justify-content: space-around;
 }
+
+@media screen and (max-width: 765px) and (min-width: 364px){
+.projects {
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+} 
+
 @media (max-width: 500px) {
   .projects {
     flex-direction: column;
     align-items: center;
   }
 }
+
+
+
+
+
 .projects .project {
   max-width: 22vw;
   height: 65vh;
@@ -582,7 +604,7 @@ nav div a:hover {
 }
 @media (max-width: 763px) {
   .projects .project {
-    max-width: 45vw;
+    max-width: 62vw;
     margin-bottom: 2rem;
   }
 }
@@ -712,7 +734,7 @@ nav div a:hover {
   }
 }
 
-@media screen and (min-width:364px) and (max-width:765px){
+@media screen and (min-width:200px) and (max-width:764px){
 .about .skills .skill-icons {
   display: flex;
   flex-direction: row;
