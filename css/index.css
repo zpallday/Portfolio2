@@ -505,11 +505,11 @@ nav div a:hover {
     padding-bottom: 2rem;
   }
 }
-@media (max-width: 500px) {
+/* @media (max-width: 500px) {
   .about .skills .skill-icons div {
     width: 40vw;
   }
-}
+} */
 @media screen and (min-width:501px) and (max-width:1000px){
   .about .about-text .about-image{
   width: 76vw;
@@ -583,12 +583,12 @@ justify-content: space-around;
 }
 } 
 
-@media (max-width: 500px) {
+/* @media (max-width: 500px) {
   .projects {
     flex-direction: column;
     align-items: center;
   }
-}
+} */
 
 
 
@@ -742,3 +742,30 @@ justify-content: space-around;
   justify-content: space-between;
   width: 100%;
 }}
+
+@media screen and (min-width:352px) and (max-width:400px){
+  .projects-page {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+  }}
+
+  @media screen and (min-width:325px) and (max-width:400px){
+    div.projects {
+      display: grid;
+      grid-template-columns: auto;
+    }}
+
+    @media screen and (min-width:325px) and (max-width:400px){
+    .about .skills .skill-icons{
+      display: grid;
+      grid-template-columns: auto auto;
+      margin-left: -6%;
+    }}
+
+    @media screen and (min-width:325px) and (max-width:400px){
+      nav{
+        display: flex;
+        flex-direction: column-reverse;
+      }}
