@@ -466,7 +466,7 @@ nav div a:hover {
   overflow: hidden;
   background-image: url('https://i.ibb.co/f0tsXRk/T4-JUEB3-ME-UJG8-RLWKG-3766d295008c-512.png');
   background-size: cover;
-  margin-left: -1.7%;
+  margin-left: -1.5%;
 }
 
 
@@ -573,6 +573,7 @@ nav div a:hover {
 display: grid;
 grid-template-columns: auto auto auto;
 justify-content: space-around;
+/* width: 100%; */
 }
 
 @media screen and (max-width: 765px) and (min-width: 364px){
@@ -751,7 +752,7 @@ justify-content: space-around;
     width: 100%;
   }}
 
-  @media screen and (min-width:325px) and (max-width:400px){
+  @media screen and (min-width:15px) and (max-width:400px){
     div.projects {
       display: grid;
       grid-template-columns: auto;
@@ -761,7 +762,6 @@ justify-content: space-around;
     .about .skills .skill-icons{
       display: grid;
       grid-template-columns: auto auto;
-      margin-left: -6%;
     }}
 
     @media screen and (min-width:325px) and (max-width:400px){
@@ -769,3 +769,27 @@ justify-content: space-around;
         display: flex;
         flex-direction: column-reverse;
       }}
+
+      @media screen and (min-width:15px) and (max-width:317px){
+        .projects{
+          grid-template-columns: auto auto auto;
+          justify-content: space-around;
+          margin-left: 10%;
+        }}
+
+        /* @media screen and (min-width:256px) and (max-width:320px){
+          div.projects{
+            grid-template-columns: auto auto auto;
+            justify-content: space-around;
+            margin-left: 10%;
+          }} */
+
+          @media screen and (min-width:15px) and (max-width:320px){
+            nav{
+              display: table-caption
+            }}
+
+            @media screen and (min-width:1023px) and (max-width:1024px){
+              .about .about-text .about-image{
+                width: 140vw;
+              }}
