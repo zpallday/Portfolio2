@@ -793,3 +793,11 @@ justify-content: space-around;
               .about .about-text .about-image{
                 width: 140vw;
               }}
+
+.mr-8 {
+  margin-bottom: -80%;
+}
+
+div.github-link {
+ height: 1%;
+}
