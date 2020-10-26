@@ -677,7 +677,7 @@ justify-content: space-around;
   }
 }
 .contact {
-  max-height: 45vh;
+  max-height: 65vh;
   background-color: #ffac41;
   color: black;
   text-align: center;
@@ -688,7 +688,7 @@ justify-content: space-around;
 }
 @media (max-width: 763px) {
   .contact {
-    height: 55vh;
+    height: 40vh;
   }
 }
 .contact h1 {
@@ -800,4 +800,29 @@ justify-content: space-around;
 
 div.github-link {
  height: 1%;
+}
+
+@media screen and (min-width:0px) and (max-width:400px){
+  .about {
+    margin-top: -28%;
+}
+}
+
+@media screen and (min-width:0px) and (max-width:400px){
+  .projects-page {
+    margin-top: -37%;
+}
+}
+
+
+@media screen and (min-width:0px) and (max-width:400px){
+  .projects .project {
+    margin-bottom: 36%;
+}
+}
+
+@media screen and (min-width:0px) and (max-width:400px){
+.contact {
+    height: 60vh;
+}
 }
