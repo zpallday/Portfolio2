@@ -571,7 +571,7 @@ nav div a:hover {
 
 .projects {
 display: grid;
-grid-template-columns: auto auto auto auto;
+grid-template-columns: auto auto auto;
 justify-content: space-around;
 /* width: 100%; */
 }
